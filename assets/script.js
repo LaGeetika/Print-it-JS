@@ -18,14 +18,14 @@ const slides = [
 ]
 
 //AJOUT EVENT LISTENER//
-const leftArrowElt = document.querySelector('arrow_left');
+const leftArrowElt = document.querySelector('.arrow_left');
 
 leftArrowElt.addEventListener('click', function () {
-	alert('Bonjour')
+	alert('leftClick')
 })
 
-const rightArrowElt = document.querySelector('arrow_right');
+const rightArrowElt = document.querySelector('.arrow_right');
 
 rightArrowElt.addEventListener('click', function () {
-	alert('Bonjour')
+	alert('rightClick')
 })
