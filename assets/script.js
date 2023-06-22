@@ -29,3 +29,6 @@ const rightArrowElt = document.querySelector('.arrow_right');
 rightArrowElt.addEventListener('click', function () {
 	alert('rightClick')
 })
+
+
+
