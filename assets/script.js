@@ -17,7 +17,7 @@ const slides = [
 	}
 ]
 
-// CREATION DES BULLETS POINTS//
+//CREATION DES BULLETS POINTS//
 const dotsDiv = document.querySelector(".dots");
 for(var i=0; i <= slides.length-1; i++) {
 	const dot = document.createElement("span");
