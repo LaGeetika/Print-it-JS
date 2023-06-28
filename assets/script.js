@@ -37,7 +37,7 @@ const bulletPoints = document.querySelectorAll('.dot');
 const leftArrowElt = document.querySelector('.arrow_left');
 leftArrowElt.addEventListener('click', function () {
 	bulletPoints[indexSlides].classList.remove("dot_selected");
-	indexSlides -= 1;
+	indexSlides--;
 
 	if(indexSlides < 0) {
 		indexSlides = slides.length - 1;
@@ -51,7 +51,7 @@ leftArrowElt.addEventListener('click', function () {
 const rightArrowElt = document.querySelector('.arrow_right');
 rightArrowElt.addEventListener('click', function () {
 	bulletPoints[indexSlides].classList.remove("dot_selected");
-	indexSlides += 1;
+	indexSlides++;
 
 	if(indexSlides >= slides.length) {
 		indexSlides = 0;
